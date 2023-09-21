@@ -10,4 +10,8 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         addBook.remove(buddy);
     }
+
+    public static void main(String[] args){
+        System.out.println("Address Book");
+    }
 }
